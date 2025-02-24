@@ -67,7 +67,7 @@ const projects = [
         </div>
         <div className="flex justify-between gap-4">
         {projects.map((project, index) => (
-          <div key={index} className="bg-gray-100 p-4 rounded-md shadow w-full bg-white relative">
+          <div key={index} className="p-4 rounded-md shadow w-full bg-white relative">
             {/* Top Right Image */}
             <img
               className="w-10 h-10 rounded-full absolute top-4 right-4"
