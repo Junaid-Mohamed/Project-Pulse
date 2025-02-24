@@ -1,1 +1,11 @@
 @import "tailwindcss";
+
+.grid-section{
+  display: grid;
+  gap: 1.5rem;
+  grid-template-columns: repeat(6,1fr); 
+}
+
+.grid-col-span-5{
+  grid-column: span 5;
+}
